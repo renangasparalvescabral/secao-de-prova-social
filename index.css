@@ -2,71 +2,134 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
 body{
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Spartan", sans-serif;
+    background-image: url(images/bg-pattern-top-mobile.svg),
+      url(images/bg-pattern-bottom-mobile.svg);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+
+.tela{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+}
+
+.top-tela{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
 }
 
 .artigo{
-    display: flex;
-    flex-direction: column;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
-    color: hsl(300, 43%, 22%);
-    margin-top: 150px;
-    margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-.classificacao-1{
-    display: flex;
-    align-items: center;
-    margin-top: -200px;
-    margin-left: 1000px;
-    
+.artigo-titulo{
+  text-align: star;
+  font-size: 40px;
+  color: hsl(300, 43%, 22%);
+  margin-left: 350px ;
+
 }
 
-.classificacao-1 img{
-    background-color:hsl(300, 24%, 96%);
+.artigo-subtitulo{
+  text-align:start;
+  font-size: 0.9rem;
+  padding: 10px 5px;
+  margin-top: -50px;
+  margin-left: 350px;
+  color: hsl(300, 43%, 22%);
+  line-height: 1.5;
 }
 
-.classificacao-1 h4{
-    color: hsl(300, 43%, 22%);
-    padding-left: 10px;
-    background-color:hsl(300, 24%, 96%);
+/*.........................................*/
+
+.class-geral{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.classificacao-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0px;
-    margin-left: 1100px;
-}
-
-.classificacao-2 img{
-    background-color:hsl(300, 24%, 96%);
-}
-.classificacao-2 h4{
-    color: hsl(300, 43%, 22%);
-    padding-left: 10px;
-    background-color:hsl(300, 24%, 96%);
-}
-
-.classificacao-3{
+.class-reviews{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 1200px;
+    padding: 0px 35px;
+    margin: 0 0 20px 0;
+    line-height: 25px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transform: translate(950px, -270px);
 }
 
-.classificacao-3 img{
-    background-color:hsl(300, 24%, 96%);
+.class-guru{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 35px;
+    margin: 0 0 20px 0;
+    line-height: 25px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transform: translate(650px, -190px);
 }
 
-.classificacao-3 h4{
-    color: hsl(300, 43%, 22%);
+.class-besttech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 37px;
+    margin: 0 0 20px 0;
+    line-height: 25px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transform: translate(340px, -105px);
+}
+
+.class-text{
     padding-left: 10px;
-    background-color:hsl(300, 24%, 96%);
+    color: hsl(300, 80%, 10%);
+    font-family: "Spartan", sans-serif;
+    font-weight: 700;
 }
+
+/*.........................................*/
+
+
+
+.colton-smith{
+    display: flex;
+}
+
+.irene-roberts{
+    display: flex;
+}
+
+.Anne-wallace{
+    display: flex;
+}
+
+
+
+
+
+
+
+/*..........................................*/
 
       .attribution {
         font-size: 11px;
