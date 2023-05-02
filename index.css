@@ -9,27 +9,26 @@ body{
       url(images/bg-pattern-bottom-mobile.svg);
     width: 100%;
     height: 100%;
+
 }
 
 .tela{
-    width: 1440px;
     display: flex;
     flex-direction: row;
-    margin: 0px 20px 0px 20px;
     align-items: center;
 }
 
 .top-tela{
     display: flex;
     flex-direction: column;
-    margin: 50px 0 50px 0;
+    
 }
 
 .artigo{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 10px;
+  
 }
 
 .artigo-titulo{
@@ -111,30 +110,139 @@ body{
   display: flex;
 }
 
+
 .container-colson{
   padding-right: 20px;
+  background-color: hsl(300, 80%, 10%);
+  margin-bottom: 120px;
+  transform: translate(350px, 0px);
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
 }
 
 .colton-smith{
     display: flex;
 }
 
+.img-colton{
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.nome-colton h3{
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.nome-colton h4{
+  color:  hsl(333, 80%, 67%);
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.text-colton p{
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 30px;
+  line-height: 20px;
+}
+
+
 .container-irene{
   padding-right: 20px;
+  background-color: hsl(300, 80%, 10%);
+  transform: translate(425px, 20px);
+  margin-bottom: 120px;
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
 }
 
 .irene-roberts{
     display: flex;
 }
 
-.Anne-wallace{
-    display: flex;
+.img-irene{
+  border-radius: 35px;
+  width: 60px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.nome-irene h3{
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.nome-irene h4{
+  color:  hsl(333, 80%, 67%);
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.text-irene p{
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 30px;
+  line-height: 20px;
 }
 
 
 
 
+.container-anne{
+  background-color: hsl(300, 80%, 10%);
+  margin-top: 40px;
+  margin-left: 490px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
+}
 
+.Anne-wallace{
+    display: flex;
+}
+
+.img-anne{
+  border-radius: 35px;
+  width: 60px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.nome-anne h3{
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.nome-anne h4{
+  color:  hsl(333, 80%, 67%);
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.text-anne p{
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 30px;
+  line-height: 20px;
+}
 
 
 /*..........................................*/
@@ -142,6 +250,7 @@ body{
       .attribution {
         font-size: 11px;
         text-align: center;
+        margin-left: 400px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
