@@ -7,27 +7,23 @@ body{
     font-family: "Spartan", sans-serif;
     background-image: url(images/bg-pattern-top-mobile.svg),
       url(images/bg-pattern-bottom-mobile.svg);
-    width: 100%;
-    height: 100%;
-
+    
 }
 
 .tela{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-width: 500px;
+  max-width: 1127px;
+  }
 
-.top-tela{
-    display: flex;
-    flex-direction: column;
-    
-}
 
 .artigo{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 0px;
   
 }
 
@@ -35,8 +31,8 @@ body{
   text-align: star;
   font-size: 40px;
   color: hsl(300, 43%, 22%);
-  margin-left: 350px ;
-
+  margin-left: 5px ;
+ 
 }
 
 .artigo-subtitulo{
@@ -44,9 +40,10 @@ body{
   font-size: 0.9rem;
   padding: 10px 5px;
   margin-top: -50px;
-  margin-left: 350px;
+  margin-left: 5px;
   color: hsl(300, 43%, 22%);
   line-height: 1.5;
+ 
 }
 
 /*.........................................*/
@@ -56,6 +53,8 @@ body{
   flex-direction: row;
   align-items: center;
   margin-top: 10px;
+  min-width: 500px;
+  max-width: 1127px;
 }
 
 .class-reviews{
@@ -68,7 +67,8 @@ body{
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
     font-size: 0.9rem;
-    transform: translate(950px, -270px);
+    transform: translate(580px, -310px);
+    
 }
 
 .class-guru{
@@ -81,7 +81,8 @@ body{
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
     font-size: 0.9rem;
-    transform: translate(650px, -190px);
+    transform: translate(300px, -215px);
+    
 }
 
 .class-besttech{
@@ -94,7 +95,10 @@ body{
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
     font-size: 0.9rem;
-    transform: translate(340px, -105px);
+    transform: translate(-5px, -125px);
+    
+    
+   
 }
 
 .class-text{
@@ -102,6 +106,7 @@ body{
     color: hsl(300, 80%, 10%);
     font-family: "Spartan", sans-serif;
     font-weight: 700;
+    
 }
 
 /*.........................................*/
@@ -119,6 +124,8 @@ body{
   border-radius: 5px;
   width: 300px;
   height: 250px;
+  margin-left: -345px;
+  margin-top: -50px;
 }
 
 .colton-smith{
@@ -163,6 +170,7 @@ body{
   border-radius: 5px;
   width: 300px;
   height: 250px;
+  margin-top: -50px;
 }
 
 .irene-roberts{
@@ -209,6 +217,7 @@ body{
   border-radius: 5px;
   width: 300px;
   height: 250px;
+  margin-top: -5px;
 }
 
 .Anne-wallace{
@@ -250,7 +259,8 @@ body{
       .attribution {
         font-size: 11px;
         text-align: center;
-        margin-left: 400px;
+        margin-left: 100px;
+        margin-top: -50px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
