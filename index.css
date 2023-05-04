@@ -29,7 +29,7 @@ body{
 
 .artigo-titulo{
   text-align: star;
-  font-size: 40px;
+  font-size: 30px;
   color: hsl(300, 43%, 22%);
   margin-left: 5px ;
  
@@ -64,7 +64,7 @@ body{
     padding: 0px 35px;
     margin: 0 0 20px 0;
     line-height: 25px;
-    background-color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 50%, 94%);
     border-radius: 5px;
     font-size: 0.9rem;
     transform: translate(580px, -310px);
@@ -78,10 +78,10 @@ body{
     padding: 0px 35px;
     margin: 0 0 20px 0;
     line-height: 25px;
-    background-color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 50%, 94%);
     border-radius: 5px;
     font-size: 0.9rem;
-    transform: translate(300px, -215px);
+    transform: translate(300px, -205px);
     
 }
 
@@ -92,10 +92,10 @@ body{
     padding: 2px 37px;
     margin: 0 0 20px 0;
     line-height: 25px;
-    background-color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 50%, 94%);
     border-radius: 5px;
     font-size: 0.9rem;
-    transform: translate(-5px, -125px);
+    transform: translate(-5px, -100px);
     
     
    
@@ -259,7 +259,7 @@ body{
       .attribution {
         font-size: 11px;
         text-align: center;
-        margin-left: 100px;
+        margin-left: 30px;
         margin-top: -50px;
       }
       .attribution a {
